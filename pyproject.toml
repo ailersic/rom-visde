@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "rom-visde"
+version = "0.1.0"
+description = "Learning latent SDE-based reduced-order models by variational inference"
+authors = ["Andrew Francesco Ilersich", "Kevin Course", "Prasanth B. Nair"]
+license = "GNUv3"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jaxtyping = "^0.2.33"
+beartype = "^0.18.5"
+numpy = "^2.0.1"
+pytorch-lightning = "^2.3.3"
+tensorboard = "^2.12.1"
+torchsde = "^0.2.5"
+torch = "^2.4.0"
+torchvision = "^0.19.0"
+typing-extensions = "^4.12.2"
+torchdiffeq = "^0.2.4"
+
+[tool.poetry.group.dev.dependencies]
+matplotlib = "^3.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
