@@ -4,7 +4,7 @@
   <img align="middle" src="./images/flowcontrol.gif" alt="Example with Flow Control over Cylinder" width="700"/>
 </p>
 
-PyTorch Lightning code for learning reduced-order models with latent stochastic differential systems by variational inference. This repository accompanies [this paper](https://on_arxiv_soon) by Andrew F. Ilersich, Kevin Course, and Prasanth B. Nair, and is based on the [arlatentsde](https://github.com/coursekevin/arlatentsde) package that accompanies [this paper](https://neurips.cc/virtual/2023/poster/72781) by Kevin Course and Prasanth B. Nair.
+PyTorch Lightning code for learning reduced-order models with latent stochastic differential systems by variational inference. This repository accompanies [this paper](https://arxiv.org/abs/2601.10690) by Andrew F. Ilersich, Kevin Course, and Prasanth B. Nair, and is based on the [arlatentsde](https://github.com/coursekevin/arlatentsde) package that accompanies [this paper](https://neurips.cc/virtual/2023/poster/72781) by Kevin Course and Prasanth B. Nair.
 
 The code for all test cases is provided in the `experiments/` directory. The movies S1-S4 referenced in the paper are in the `movies/` directory.
 
@@ -12,8 +12,14 @@ The core variational inference engine from this package has been further develop
 
 If you find this work useful, please cite the following:
 ```
-@article{comingsoon,
-    title={Really cool paper}
+@misc{Ilersich_2016_ROM_Parametrized_Systems,
+      title={Data-driven stochastic reduced-order modeling of parametrized dynamical systems}, 
+      author={Andrew F. Ilersich and Kevin Course and Prasanth B. Nair},
+      year={2026},
+      eprint={2601.10690},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2601.10690}, 
 }
 ```
 
