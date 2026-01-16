@@ -6,7 +6,7 @@
 
 PyTorch Lightning code for learning reduced-order models with latent stochastic differential systems by variational inference. This repository accompanies [this paper](https://on_arxiv_soon) by Andrew F. Ilersich, Kevin Course, and Prasanth B. Nair, and is based on the [arlatentsde](https://github.com/coursekevin/arlatentsde) package that accompanies [this paper](https://neurips.cc/virtual/2023/poster/72781) by Kevin Course and Prasanth B. Nair.
 
-The code for all test cases is provided in the `experiments` directory.
+The code for all test cases is provided in the `experiments/` directory. The movies S1-S4 referenced in the paper are in the `movies/` directory.
 
 The core variational inference engine from this package has been further developed into a general-purpose package for learning latent SDE models and can be found at [github.com/ailersic/visde](https://github.com/ailersic/visde).
 
