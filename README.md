@@ -1,5 +1,7 @@
 # Learning SDE-based reduced-order models by variational inference
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21633396.svg)](https://doi.org/10.5281/zenodo.21633396)
+
 <p align="center">
   <img align="middle" src="./images/flowcontrol.gif" alt="Example with Flow Control over Cylinder" width="700"/>
 </p>
