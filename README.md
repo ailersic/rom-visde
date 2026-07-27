@@ -12,7 +12,7 @@ The core variational inference engine from this package has been further develop
 
 If you find this work useful, please cite the following:
 ```
-@misc{Ilersich_2016_ROM_Parametrized_Systems,
+@misc{Ilersich_2026_ROM_Parametrized_Systems,
       title={Data-driven stochastic reduced-order modeling of parametrized dynamical systems}, 
       author={Andrew F. Ilersich and Kevin Course and Prasanth B. Nair},
       year={2026},

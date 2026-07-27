@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "rom-visde: learning SDE-based reduced-order models by variational inference"
+type: software
+message: "If you use this software, please cite both the software and the accompanying paper."
+abstract: "PyTorch Lightning implementation of amortized stochastic variational
+  inference for learning continuous-time stochastic reduced-order models of
+  parametrized, forced dynamical systems. Accompanies Ilersich, Course and Nair
+  (2026), arXiv:2601.10690."
+authors:
+  - given-names: "Andrew F."
+    family-names: Ilersich
+  - given-names: Kevin
+    family-names: Course
+  - given-names: "Prasanth B."
+    family-names: Nair
+keywords:
+  - reduced-order modeling
+  - stochastic differential equations
+  - variational inference
